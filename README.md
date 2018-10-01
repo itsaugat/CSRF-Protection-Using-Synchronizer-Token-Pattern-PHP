@@ -10,6 +10,6 @@ Download and install either
 
 to run the application in your local machine.
 
-Clone the repo and put the contents inside htdocs folder.
+Clone the repo or download the zip file and put it inside htdocs folder.
 
-Run the localhost in the machine.
+Run localhost/Cross-Site-Request-Forgery-Synchronizer-Token-Pattern-PHP in the machine.
