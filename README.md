@@ -12,4 +12,4 @@ to run the application in your local machine.
 
 Clone the repo or download the zip file and put it inside htdocs folder.
 
-Run localhost/CSRF-Protection-Using-Synchronizer-Token-Pattern-PHP in the machine.
+Navigate to localhost/CSRF-Protection-Using-Synchronizer-Token-Pattern-PHP in the browser.
