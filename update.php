@@ -4,9 +4,9 @@ session_start();
 
 require_once 'Token.php';
 
-if(isset($_POST['address'], $_POST['hiddenToken'])){
+if(isset($_POST['location'], $_POST['hiddenToken'])){
 
-    $address   = $_POST['address'];
+    $address   = $_POST['location'];
     $valid = false;
     // 6) Extract the received CSRF token value
     $hiddenToken   = $_POST['hiddenToken'];
@@ -43,7 +43,7 @@ if(isset($_POST['address'], $_POST['hiddenToken'])){
                 // If not show error message.
                 if($valid){
                     echo '<h2 style="color:green;">Token Matched! Update Success! </h2>';
-                    echo ' <p>The provided CSRF token and the token stored in sever side is same. </p>';
+                    echo ' <p>The provided CSRF token and the token stored in sever side are same. </p>';
                 }else {
                     echo '<h2 style="color:red;">Token Error! Update Fail! </h2>';
                     echo ' <p>The provided CSRF token and the token stored in sever side are not same.</p>';

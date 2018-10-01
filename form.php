@@ -18,13 +18,13 @@
               </div>
               <div class="card fat">
                 <div class="card-body">
-                  <h4 class="card-title">Update Address</h4>
+                  <h4 class="card-title">Update Location</h4>
                   <form method="POST" action="update.php">
                    
                     <div class="form-group">
-                      <label>New Address</label>
+                      <label>New Location</label>
 
-                      <input id="address" type="text" class="form-control" name="address" value="Pittugala, Malabe" required>
+                      <input id="location" type="text" class="form-control" name="location" value="Pittugala, Malabe" required>
                     </div>
 
                     <div class="form-group">
