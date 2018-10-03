@@ -13,3 +13,5 @@ to run the application in your local machine.
 Clone the repo or download the zip file and put it inside htdocs folder.
 
 Navigate to localhost/CSRF-Protection-Using-Synchronizer-Token-Pattern-PHP in the browser.
+
+Blog Post Link: https://saugataryal.wordpress.com/2018/10/01/csrf-mitigation-using-synchronizer-token-pattern/
